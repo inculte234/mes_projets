@@ -1,5 +1,4 @@
 France Compression de PDF
-===
 
 France Compression de PDF est un logiciel qui permet de réduire la taille d'un PDF. Pour cela, il peut : 
 - réduire la qualité des images
