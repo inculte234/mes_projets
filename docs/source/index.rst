@@ -5,6 +5,6 @@ Bienvenue sur France Bidouille, le site qui répertorie mes bidouilles créées 
 
 .. toctree::
    :maxdepth: 2
-   :caption: Pages disponibles
 
    Compression_pdf
+   
