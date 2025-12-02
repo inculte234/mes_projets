@@ -96,7 +96,8 @@ Onglet « Missions »
 
 L’onglet **Missions** permet de créer les missions et d’y affecter des salarié·e·s.
 
-**Créer une nouvelle mission :**
+Créer une nouvelle mission :
+^^^^^^^^^^^^
 
 - Écrire sur la **première ligne vide** (ne pas insérer de nouvelle ligne)
 - Choisir le **client** (voir :ref:`Onglet Clients <onglet-clients>`)
@@ -107,8 +108,8 @@ L’onglet **Missions** permet de créer les missions et d’y affecter des sala
 - Renseigner le **temps total de pause**
 - Ajouter, en colonne **R**, des **commentaires complémentaires** si nécessaire
 
-**Affecter une mission à un salarié :**
-
+Affecter une mission à un salarié :
+^^^^^^^^^^^^
 - Choisir un **intervenant** dans la liste proposée  
   (disponibilités issues de :ref:`Onglet Salariés <onglet-salaries>`)
 
@@ -118,9 +119,8 @@ Trois colonnes d’alerte permettent de sécuriser l’affectation :
 - **Avertissement disponibilité** (la formule vérie que le salarié n'est pas affecté deux fois sur deux missions sur le même créneau)
 - **Avertissement formation**  (la formule vérifie que le salarié a bien suivi la formation demandée par ce client)
 
-**Cas particulier : les missions sur plusieurs jours**
-Missions sur plusieurs jours
-----------------------------
+Cas particulier : les missions sur plusieurs jours
+^^^^^^^^^^^^
 
 Il est possible de créer des **missions qui s’étalent sur plusieurs jours**, à condition qu’elles respectent **des horaires strictement identiques chaque jour** (même heure de début et même heure de fin) et que les **jours travaillés soient continus**.
 
@@ -165,7 +165,8 @@ L’onglet **Formations** permet de :
 - les associer aux clients,
 - puis aux salarié·e·s.
 
-**Créer une nouvelle formation :**
+Créer une nouvelle formation :
+^^^^^^^^^^^^
 
 - En **colonne A** : nommer la formation
 - En **colonne B** : l’associer à un client  
@@ -195,7 +196,7 @@ Le planning se génère automatiquement.
 
 **Export en PDF :**
 
-- Menu **Fichier** → **Télécharger** → **PDF**
+On peut **exporter en PDF :** le planning en allant dans : Menu **Fichier** → **Télécharger** → **PDF**
 
 
 .. _onglet-planning-client:
@@ -214,6 +215,4 @@ Pour générer un planning :
 
 Le planning se génère automatiquement.
 
-**Export en PDF :**
-
-- Menu **Fichier** → **Télécharger** → **PDF**
+On peut **exporter en PDF :** le planning en allant dans : Menu **Fichier** → **Télécharger** → **PDF**
