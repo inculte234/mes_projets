@@ -22,13 +22,19 @@ Onglet Salariés
 --------------
 L'onglet "Salariés" permet de renseigner les agents pouvant intervenir pour des missions. 
 
-Pour créer un nouveau salarié : 
-- se rendre sur la première ligne vide
-- renseigner un nom complet dans la colonne "Nom"
-- cocher ses disponibilités : c'est une étape importante. Il s'agit des disponibilités "en général", définies avec le/la salarié lors de son recrutement. 
-- éventuellement, ajouter les formations suivies (si l'onglet "Formation" a été paramétré au préalable)
-- éventuellement, ajouter les profils métiers (si l'onglet "Métiers" est utilisé)
+- Se rendre sur la **première ligne vide**
+- Renseigner un **nom complet** dans la colonne *"Nom"*
+- Cocher ses **disponibilités**  
+  C’est une étape importante. Il s’agit des disponibilités *« en général »*, définies avec le/la salarié lors de son recrutement.
+- Éventuellement, ajouter les **formations suivies**  
+  (si l’onglet *"Formation"* a été paramétré au préalable)
+- Éventuellement, ajouter les **profils métiers**  
+  (si l’onglet *"Métiers"* est utilisé)
 
 Onglet Clients
 -------------
 L'onglet "Clients" permet de renseigner les clients de l'Association Intermédiaire. 
+
+Pour créer un nouveau client : 
+- se rendre sur la première ligne vide 
+- 
