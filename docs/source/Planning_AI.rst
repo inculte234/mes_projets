@@ -1,105 +1,200 @@
+.. _planning-ai:
+
 Planning en Association Intermédiaire
-=========================
+=====================================
 
-Le fichier Google Sheets "Planning en Association Intermédiaire" permet de renseigner et suivre le planning d'intervention d'agents d'association intermédiaire. Il est pensé pour être un espace unique où les chargé.e.s de mise à disposition renseignent les missions, affectent les salarié.e.s. Un certain nombre d'outils permettent de faciliter ce travail. 
+Le fichier Google Sheets **« Planning en Association Intermédiaire »** permet de renseigner et de suivre le planning d’interventions des agents d’une Association Intermédiaire.
 
-Démarrer l'utilisation
---------------
-Le fichier fonctionne avec des onglets où l'on renseigne des informations primaires (en vert foncé), des onglets d'affichage (en jaune), et des onglets d'informations complémentaires (en vert clair)
+Il est conçu comme un **espace unique** dans lequel les chargé·e·s de mise à disposition peuvent :
 
-Il est impératif de renseigner les onglets vert foncé en premier et dans cet ordre : 
-- créer le salarié
-- créer le client
-- créer la mission
+- renseigner les missions,
+- affecter les salarié·e·s,
+- vérifier les compatibilités (disponibilités, compétences, formations).
 
-Ainsi, si une nouvelle mission nécessite un nouveau salarié, il faut créer le salarié avant la mission. 
+Un certain nombre d’outils automatisés permettent de **sécuriser et simplifier ces opérations**.
 
-**L'onglet "mission" ne peut être renseigné correctement que si l'onglet "client" et l'onglet "salarié" est correctement renseigné au préalable.**
+Une version *« vide »* du planning est disponible pour être clonée ici :  
+`Accéder au planning vierge <https://docs.google.com/spreadsheets/d/1cqSDBjjlTyBFWRqXx6UsuNnuQA89VfGCgVA6vOYZch0/edit?gid=0#gid=0>`_
 
-Pour une utilisation optimale, il est recommandé d'utiliser aussi les deux onglets vert clair (formation et métier)
 
-Onglet Salariés
---------------
-L'onglet "Salariés" permet de renseigner les agents pouvant intervenir pour des missions. 
+Navigation rapide
+------------------
+
+- :ref:`Démarrer l’utilisation <demarrer-utilisation>`
+- :ref:`Onglet Salariés <onglet-salaries>`
+- :ref:`Onglet Clients <onglet-clients>`
+- :ref:`Onglet Missions <onglet-missions>`
+- :ref:`Onglet Métiers <onglet-metiers>`
+- :ref:`Onglet Formations <onglet-formations>`
+- :ref:`Onglet Planning Intervenant <onglet-planning-intervenant>`
+- :ref:`Onglet Planning Client <onglet-planning-client>`
+
+
+.. _demarrer-utilisation:
+
+Démarrer l’utilisation
+----------------------
+
+Le fichier fonctionne avec trois types d’onglets :
+
+- des **onglets de données primaires** *(en vert foncé)*,
+- des **onglets d’affichage** *(en jaune)*,
+- des **onglets d’informations complémentaires** *(en vert clair)*.
+
+Il est **impératif de renseigner d’abord les onglets vert foncé, dans l’ordre suivant** :
+
+1. créer le salarié → :ref:`Onglet Salariés <onglet-salaries>`
+2. créer le client → :ref:`Onglet Clients <onglet-clients>`
+3. créer la mission → :ref:`Onglet Missions <onglet-missions>`
+
+Ainsi, si une nouvelle mission nécessite un nouveau salarié, **le salarié doit être créé avant la mission**.
+
+**L’onglet « Missions » ne peut être renseigné correctement que si les onglets « Clients » et « Salariés » sont déjà complétés.**
+
+Pour une utilisation optimale, il est également recommandé d’utiliser les deux onglets vert clair :
+
+- :ref:`Onglet Formations <onglet-formations>`
+- :ref:`Onglet Métiers <onglet-metiers>`
+
+
+.. _onglet-salaries:
+
+Onglet « Salariés »
+------------------
+
+L’onglet **Salariés** permet de renseigner les agents pouvant intervenir sur des missions.
+
+Pour créer un nouveau salarié :
 
 - Se rendre sur la **première ligne vide**
-- Renseigner un **nom complet** dans la colonne *"Nom"*
+- Renseigner un **nom complet** dans la colonne *« Nom »*
 - Cocher ses **disponibilités**  
-  C’est une étape importante. Il s’agit des disponibilités *« en général »*, définies avec le/la salarié lors de son recrutement.
-- Éventuellement, ajouter les **formations suivies**  
-  (si l’onglet *"Formation"* a été paramétré au préalable)
-- Éventuellement, ajouter les **profils métiers**  
-  (si l’onglet *"Métiers"* est utilisé)
+  C’est une étape essentielle. Il s’agit des disponibilités *« en général »*, définies lors du recrutement.
+- Ajouter, le cas échéant, les **formations suivies**  
+  (voir :ref:`Onglet Formations <onglet-formations>`)
+- Ajouter, le cas échéant, les **profils métiers**  
+  (voir :ref:`Onglet Métiers <onglet-metiers>`)
 
-Onglet Clients
--------------
-L'onglet "Clients" permet de renseigner les clients de l'Association Intermédiaire. 
 
-Pour créer un nouveau client : 
+.. _onglet-clients:
+
+Onglet « Clients »
+------------------
+
+L’onglet **Clients** permet d’enregistrer les clients de l’Association Intermédiaire.
+
+Pour créer un nouveau client :
+
 - Se rendre sur la **première ligne vide**
-- Renseigner un **nom complet** dans la colonne *"Nom"*
-- Indiquer ses éventuelles spécificités (adresse, numéro de téléphone de contact, ou autres)
+- Renseigner un **nom complet** dans la colonne *« Nom »*
+- Indiquer les informations utiles  
+  *(adresse, numéro de téléphone, particularités, etc.)*
 
-Onglet Missions
--------------
-L'onglet "Missions" permet de créer des missions, de les affecter à des salariés
 
-**Pour créer une nouvelle mission :** 
-- Ecrire dans la première ligne vide de l'onglet. Il est recommandé de ne pas tenter d'insérer de nouvelles lignes. 
-- Choisir le client. Si le client n'existe pas encore, le renseigner dans l'onglet "Clients"
-- Choisir le type de mission (si l'onglet "Métiers" est utilisé)
-- Renseigner une Date et heure de début d'intervention. La date doit être au format JJ/MM/YYYY HH:MM:SS. C'est à dire que le 02 décembre 2025 à 9h sera renseigné de la manière suivante  02/12/2025 09:00:00. 
-- Renseigner de la même façon une Date et une heure de fin d'intervention
-- Renseigner le total du temps de pause sur le temps de la mission. 
-- Eventuellement, on peut également renseigner, en colonne R, des commentaires additionnels pour préciser la demande (le client demande une tenue particulière, précise une adresse de rdv particulière, etc)
+.. _onglet-missions:
 
-**Pour affecter la mission à un salarié** 
-- Choisir un intervenant. La liste des intervenants qui s'affiche est celle des intervenants disponibles normalement sur ces créneaux (grâce aux informations renseignées dans l'onglet "Salariés")
+Onglet « Missions »
+-------------------
 
-S'affichent dans les colonnes M N et O des informations importantes pour s'assurer que l'affectation est pertinente : 
-- La colonne "Avertissement compétences" indique si le salarié correspond au profil métier (grâce aux informations renseignées dans l'onglet "Salariés")
-- La colonne "Avertissement dispo" indique si le salarié est déjà affecté à une mission sur le même créneau horaire. 
-- La colonne "Avertissement formation" indique si le salarié a bien suivi la formation demandée par le client (Grâce aux informations renseignées dans l'onglet "Formation" et dans l'onglet "Salariés")
+L’onglet **Missions** permet de créer les missions et d’y affecter des salarié·e·s.
 
-Onglet Métiers
--------------
-L'onglet "Métiers" permet de lister les métiers pour lesquels l'Association Intermédiaire peut faire des missions. 
-Pour créer un nouveau métier, le renseigner dans la première ligne vide disponible de la colonne A. 
+**Créer une nouvelle mission :**
 
-Onglet Formations
---------------
-L'onglet "Formations" permet de lister les formations disponibles pour les salarié.e.s de l'Association, et de les associer à des clients.
+- Écrire sur la **première ligne vide** (ne pas insérer de nouvelle ligne)
+- Choisir le **client** (voir :ref:`Onglet Clients <onglet-clients>`)
+- Choisir le **type de mission** (voir :ref:`Onglet Métiers <onglet-metiers>`)
+- Renseigner la **date et l’heure de début** au format :  
+  ``JJ/MM/AAAA HH:MM:SS``  
+  Exemple : ``02/12/2025 09:00:00``
+- Renseigner de la même façon la **date et l’heure de fin**
+- Renseigner le **temps total de pause**
+- Ajouter, en colonne **R**, des **commentaires complémentaires** si nécessaire
 
-Pour créer une nouvelle formation : 
-- en Colonne A, nommer la formation 
-- en Colonne B, l'associer à un client (il faut que le client ait, au préalable, été créé dans l'onglet "Clients")
+**Affecter une mission à un salarié :**
 
-Vous pouvez ensuite aller dans l'onglet "Salariés" pour ajouter les formations suivies par les salarié.e.s. POur cela : 
-- dans la colonne AD, sélectionner les formations suivies par chaque salarié.e
+- Choisir un **intervenant** dans la liste proposée  
+  (disponibilités issues de :ref:`Onglet Salariés <onglet-salaries>`)
 
-Onglet Planning intervenant
--------------
-L'onglet "Planning Intervenant", permet de visualiser le planning individuel d'un salarié.
+Trois colonnes d’alerte permettent de sécuriser l’affectation :
 
-Pour générer le planning d'un intervenant, il faut simplement modifier les variables en jaune : 
-- Sélectionner le nom de l'intervenant
-- Sélectionner la date de début du planning que l'on veut générer. Vous pouvez double-cliquer sur la cellule pour afficher un petit calendrier cliquable. 
-- Sélectionner la date de fin du planning que l'on veut générer. Vous pouvez double-cliquer sur la cellule pour afficher un petit calendrier cliquable. 
+- **Avertissement compétences**
+- **Avertissement disponibilité**
+- **Avertissement formation**  
+  (basé sur :ref:`Onglet Formations <onglet-formations>`)
 
-Le planning se génère ensuite dans le reste des cellules. 
 
-Vous pouvez l'exporter au format PDF. Dans le menu en haut, cliquer sur sur "Fichier", puis "Télécharger" et "PDF"
+.. _onglet-metiers:
 
-Onglet Planning Client
--------------
-L'onglet "Planning Client", permet de visualiser le planning individuel d'un client.
+Onglet « Métiers »
+-----------------
 
-Pour générer le planning d'un client, il faut simplement modifier les variables en jaune : 
-- Sélectionner le nom du client
-- Sélectionner la date de début du planning que l'on veut générer. Vous pouvez double-cliquer sur la cellule pour afficher un petit calendrier cliquable. 
-- Sélectionner la date de fin du planning que l'on veut générer. Vous pouvez double-cliquer sur la cellule pour afficher un petit calendrier cliquable. 
+L’onglet **Métiers** permet de lister les types de missions que peut proposer l’Association Intermédiaire.
 
-Le planning se génère ensuite dans le reste des cellules. 
+Pour créer un nouveau métier :
 
-Vous pouvez l'exporter au format PDF. Dans le menu en haut, cliquer sur sur "Fichier", puis "Télécharger" et "PDF"
+- Renseigner son **nom dans la première ligne vide de la colonne A**
 
+
+.. _onglet-formations:
+
+Onglet « Formations »
+--------------------
+
+L’onglet **Formations** permet de :
+
+- lister les formations disponibles,
+- les associer aux clients,
+- puis aux salarié·e·s.
+
+**Créer une nouvelle formation :**
+
+- En **colonne A** : nommer la formation
+- En **colonne B** : l’associer à un client  
+  (voir :ref:`Onglet Clients <onglet-clients>`)
+
+Ensuite, dans l’onglet **Salariés** :
+
+- En **colonne AD**, sélectionner les **formations suivies par chaque salarié·e**
+  (voir :ref:`Onglet Salariés <onglet-salaries>`)
+
+
+.. _onglet-planning-intervenant:
+
+Onglet « Planning Intervenant »
+-------------------------------
+
+L’onglet **Planning Intervenant** permet de visualiser le planning individuel d’un salarié.
+
+Pour générer un planning :
+
+- Sélectionner le **nom de l’intervenant**  
+  (voir :ref:`Onglet Salariés <onglet-salaries>`)
+- Sélectionner la **date de début**
+- Sélectionner la **date de fin**
+
+Le planning se génère automatiquement.
+
+**Export en PDF :**
+
+- Menu **Fichier** → **Télécharger** → **PDF**
+
+
+.. _onglet-planning-client:
+
+Onglet « Planning Client »
+--------------------------
+
+L’onglet **Planning Client** permet de visualiser le planning individuel d’un client.
+
+Pour générer un planning :
+
+- Sélectionner le **nom du client**  
+  (voir :ref:`Onglet Clients <onglet-clients>`)
+- Sélectionner la **date de début**
+- Sélectionner la **date de fin**
+
+Le planning se génère automatiquement.
+
+**Export en PDF :**
+
+- Menu **Fichier** → **Télécharger** → **PDF**
