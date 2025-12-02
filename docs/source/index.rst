@@ -8,4 +8,6 @@ Bienvenue sur France Bidouille, le site qui répertorie mes bidouilles créées 
    :caption: Pages disponibles
 
    Compression_pdf
+   Planning
+   
    
