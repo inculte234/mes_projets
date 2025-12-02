@@ -47,9 +47,7 @@ Il est **impératif de renseigner d’abord les onglets vert foncé, dans l’or
 2. créer le client → :ref:`Onglet Clients <onglet-clients>`
 3. créer la mission → :ref:`Onglet Missions <onglet-missions>`
 
-Ainsi, si une nouvelle mission nécessite un nouveau salarié, **le salarié doit être créé avant la mission**.
-
-**L’onglet « Missions » ne peut être renseigné correctement que si les onglets « Clients » et « Salariés » sont déjà complétés.**
+Ainsi, si une nouvelle mission nécessite un nouveau salarié, **le salarié doit être créé avant la mission**. **L’onglet « Missions » ne peut être renseigné correctement que si les onglets « Clients » et « Salariés » sont déjà complétés.**
 
 Pour une utilisation optimale, il est également recommandé d’utiliser les deux onglets vert clair :
 
@@ -104,8 +102,7 @@ L’onglet **Missions** permet de créer les missions et d’y affecter des sala
 - Choisir le **client** (voir :ref:`Onglet Clients <onglet-clients>`)
 - Choisir le **type de mission** (voir :ref:`Onglet Métiers <onglet-metiers>`)
 - Renseigner la **date et l’heure de début** au format :  
-  ``JJ/MM/AAAA HH:MM:SS``  
-  Exemple : ``02/12/2025 09:00:00``
+  ``JJ/MM/AAAA HH:MM:SS``. Par exemple la date du 2 décembre 2025 à 9h sera notée : ``02/12/2025 09:00:00``
 - Renseigner de la même façon la **date et l’heure de fin**
 - Renseigner le **temps total de pause**
 - Ajouter, en colonne **R**, des **commentaires complémentaires** si nécessaire
@@ -117,10 +114,32 @@ L’onglet **Missions** permet de créer les missions et d’y affecter des sala
 
 Trois colonnes d’alerte permettent de sécuriser l’affectation :
 
-- **Avertissement compétences**
-- **Avertissement disponibilité**
-- **Avertissement formation**  
-  (basé sur :ref:`Onglet Formations <onglet-formations>`)
+- **Avertissement compétences** (la formule vérifie que le profil métier renseigné pour la mission correspond au profil métier coché pour le salarié)
+- **Avertissement disponibilité** (la formule vérie que le salarié n'est pas affecté deux fois sur deux missions sur le même créneau)
+- **Avertissement formation**  (la formule vérifie que le salarié a bien suivi la formation demandée par ce client)
+
+**Cas particulier : les missions sur plusieurs jours**
+Missions sur plusieurs jours
+----------------------------
+
+Il est possible de créer des **missions qui s’étalent sur plusieurs jours**, à condition qu’elles respectent **des horaires strictement identiques chaque jour** (même heure de début et même heure de fin) et que les **jours travaillés soient continus**.
+
+**Exemple :**
+
+- Début : Lundi 1er décembre 2025 à 09h00  
+- Fin : Vendredi 5 décembre 2025 à 17h00  
+- Horaires identiques chaque jour : 09h00 → 17h00  
+
+Dans ce cas précis, **la mission peut être renseignée sur une seule ligne**.
+
+En revanche, **si les horaires varient d’un jour à l’autre**, il est alors recommandé de :
+
+- créer **une ligne par jour de mission**.
+
+.. note::
+
+   Afin d’éviter toute erreur de planification ou de calcul, en cas de doute, 
+   **il est fortement recommandé de créer autant de missions qu’il y a de jours**
 
 
 .. _onglet-metiers:
