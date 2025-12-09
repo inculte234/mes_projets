@@ -1,4 +1,4 @@
-Télécharger Poulpe
+Poulpe, l'assistant de veille sur les marchés publics
 ==================
 
 Bienvenue sur la page de téléchargement de **Poulpe**, un petit assistant de veille pour les marchés publics. Cette page explique comment obtenir la dernière version du logiciel,
