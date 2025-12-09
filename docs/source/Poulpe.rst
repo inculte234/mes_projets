@@ -26,9 +26,8 @@ Téléchargement
 Vous pouvez télécharger la dernière version stable de Poulpe ci-dessous :
 
 **Dernière version stable :**  
-`poulpe-latest.zip <https://github.com/inculte234/mes_projets/releases/tag/Poulpe>`__
+`poulpe-latest.zip <https://github.com/inculte234/mes_projets/releases/download/Poulpe/poulpe.0.0.zip>`__
 
-(Le lien ci-dessus suppose que vous avez un dépôt public dédié aux releases.)
 
 L'archive contient :
 
