@@ -47,5 +47,4 @@ Aucune installation n'est requise.
 
 Licence
 -----------
-
-Poulpe fonctionne avec une licence. Vous pouvez demander cette licence à un administrateur. 
+Poulpe fonctionne avec une licence. Vous pouvez demander cette licence `à ce lien <https://poulpe-io.onrender.com/request_licence>`__ 
